@@ -14,15 +14,15 @@ install_requires = get_install_requirements()
 
 
 setup(
-    name="MockRestServer",
+    name="mockrestserver",
     version=package_version,
-    packages=find_packages(),
+    packages=["mockrestserver"],
     package_data={
         "": ["*.yml", "*.json", "*.crt", "*.key"]
     },
     install_requires=install_requires,
     dependency_links=[],
     url="",
-    description="MockRestServer - Code-less (%s)" % package_version,
+    description="mockrestserver - Code-less (%s)" % package_version,
     long_description=open("README.md").read()
 )
