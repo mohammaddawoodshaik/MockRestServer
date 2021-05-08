@@ -1,0 +1,26 @@
+		{
+		   "name":"Mock the REST",
+		   "context":{
+		      "is_secured":false,
+		      "is_authenticated":false,
+		      "DNS":"1.1.1.1",
+		      "proxy":"http://abcd.com:80",
+		      "env":{
+		         "IP_FAMILY":"ipv4",
+		         "PORT":"8080"
+		      },
+		      "application":{
+		         
+		      }
+		   },
+		   "endpoints":[
+		      {
+		         "path":"/abc",
+		         "method":"GET",
+		         "resp":{
+		            "status":200,
+		            "body":"Simple response!"
+		         }
+		      }
+		   ]
+        }
